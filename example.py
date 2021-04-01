@@ -11,7 +11,7 @@ def test_add():
     assert add('space', 'ship') == 'spaceship'
 
 def subtract(a, b):
-    return a + b  # <--- fix this 
+    return a - b  # <--- fix this 
 
 def test_subtract():
     assert subtract(2, 3) == -1
